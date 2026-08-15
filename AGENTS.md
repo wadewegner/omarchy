@@ -13,7 +13,8 @@ the matching guide before starting:
 
 `agents/maintainers/` holds workflows that are run rather than read, for maintaining
 the project itself. They are not part of contributing a change and most work never
-needs them.
+needs them. They are not symlinked into your agent skill directories automatically;
+`omarchy dev maintainer-skills` does that from a checkout, and `--unlink` undoes it.
 
 # Style
 
